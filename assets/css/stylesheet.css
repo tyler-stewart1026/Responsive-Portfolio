@@ -19,9 +19,10 @@ html {
     height: 90px;  
     margin-bottom: 30px; 
     color: black;   
+    
 }
 
-#name {    
+h1 {    
     width: 350px;
     height: 90px;
     margin-left: 200px;
@@ -36,7 +37,7 @@ html {
     top: 0px;
 }
 
-li {
+.list {
     list-style-type: none;
     float: left;
     margin-left: 20px;
@@ -47,7 +48,14 @@ li {
     display: block;
     position: relative;
     right: -350px;
-    border-right: 1px solid black;
+}
+
+li {
+    float: left;
+    border-right: 2px solid black;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 li:last-child {
@@ -230,19 +238,43 @@ input[type=text] {
   }
 
   @media only screen and (max-width: 640px) {
+
+        .about {
+            margin: auto;
+        }
         .header {
             float: none;
-            text-align: left;
             display: block;
-            background-color: green;
+            background-color: blue;
+            max-width: 100%;
+            margin: auto;
         }
-        #name {
+        h1 {
             float: none;
+            background-color: green;
+            margin: auto;
+        }
+        .list {
+            margin: auto;
+            text-align: center;
+            background-color: green;
+
+        }
+        
+
+        .portfolio-body {
+            margin: auto;
+        }
+        .portfolio-title {
+            margin: auto;
         }
     }
+
+
+
   
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 768px) {
 
   }
 
@@ -252,4 +284,5 @@ input[type=text] {
     }
  }
 
+ 
   
