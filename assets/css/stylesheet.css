@@ -86,8 +86,8 @@ a:active {
 .about {
     width: 960px;
     margin: auto;
-    overflow: scroll;
-    height: 450px;
+    /*overflow: scroll;*/
+    /*height: 450px;*/
     margin-left: 200px;
     padding: 10px;
     border: 1px solid #cccccc;
@@ -234,7 +234,7 @@ input[type=text] {
   }
 
   textarea {
-    width: 90%;
+    width: 80%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -248,8 +248,8 @@ input[type=text] {
     .about {
         margin: auto;
         margin-left: 30px;
-        overflow: scroll;
-        height: 350px;
+        /*overflow: scroll;*/
+        /*height: 350px;*/
         padding: 10px;
         border: 1px solid #cccccc;
         background-color: #ffffff;
@@ -345,8 +345,8 @@ input[type=text] {
 
     .about {
         margin: auto;
-        overflow: scroll;
-        height: 450px;
+        /*overflow: scroll;*/
+        /*height: 450px;*/
         padding: 10px;
         border: 1px solid #cccccc;
         background-color: #ffffff;
