@@ -243,28 +243,6 @@ input[type=text] {
   }
 
   @media only screen and (max-width: 980px) {
-    h1 {
-        margin-left: 50px;
-    }
-    .list {
-        right: -200px;
-    }
-
-    .about {
-        width: 60%;
-        float: left;
-        margin-left: 50px;
-    }
-
-    #my-picture {
-        margin-left: 20px;
-    }
-
-    
- }
-
- @media only screen and (max-width: 768px) {
-
     .about {
         margin: auto;
         overflow: scroll;
@@ -306,6 +284,63 @@ input[type=text] {
         display: block;
         position: relative;
         right: -35px;
+    }
+
+    #my-picture {
+        margin-left: 20px;
+    }
+
+    
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    .about {
+        margin: auto;
+        overflow: scroll;
+        height: 450px;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .header {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    h1 {
+        width: 350px;
+        height: 90px;
+        padding: 20px 15px;
+        text-align: center;
+        font-size: 40px;
+        box-sizing: border-box;
+        color: Black;
+        background-color: #353535;
+        float: left;
+        position: relative;
+        top: 0px;
+        margin-left: 10px;
+    }
+    .list {
+        list-style-type: none;
+        float: left;
+        margin-left: 20px;
+        margin-top: 28px;
+        padding-top: 6px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        display: block;
+        position: relative;
+        right: -35px;
+    }
+
+    #my-picture {
+        width: 55%;
+        height: 75%;
     }
     .portfolio-body {
         margin: auto;
