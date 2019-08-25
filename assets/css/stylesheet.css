@@ -141,15 +141,17 @@ footer {
     background-color: #ffffff;
     border: 1px solid #cccccc;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .contact-body {
     width: 960px;
-    height: 455px;
+    height: 100%;
     margin-left: 200px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .picture1 p{
