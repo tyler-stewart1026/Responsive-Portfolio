@@ -403,7 +403,8 @@ input[type=text] {
         .about {
             margin: auto;
             margin-bottom: 100px;
-            margin-left: 60px;
+            /*margin-left: 60px;*/ 
+            width: 90%;
            
         }
         .header {
@@ -469,26 +470,26 @@ input[type=text] {
             width: 100%;
             height: 100%;
             margin: 0 auto;
-            margin-left: 75px;
+            margin-left: 35px;
         }
 
         .picture1 {
             position: relative;
             display: inline-block;
-            width: 33%;
+            width: 90%;
             margin: 0px;
             margin-bottom: 20px;
         }
 
         .picture1 p {
-            width: 80%;
+            width: 100%;
             background-color: rgba(160, 160, 160, .6);
             text-align: center;
             padding: 12px;
             font-weight: bold;
             position: absolute;
             bottom: 0px;
-            margin-left: 75px;
+            margin-left: 35px;
         }
 
         .contact-body {
